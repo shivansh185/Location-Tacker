@@ -1,0 +1,42 @@
+/* style2.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1d1d; /* Soft Peach */
+}
+
+.d-grid {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.gap-2 {
+    gap: 20px;
+}
+
+.btn.btn-primary {
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+.btn.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+#track-location {
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#track-location:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
